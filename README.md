@@ -36,3 +36,28 @@ b) Н_ВЕДОМОСТИ.ИД < 1457443.
 
 7. Вывести список студентов, имеющих одинаковые имена, но не совпадающие даты рождения.
 
+
+## Scripts
+
+[1.sql](./1.sql)
+
+[2.sql](./2.sql)
+
+[3.sql](./3.sql)
+
+[4.sql](./4.sql)
+
+[5.sql](./5.sql)
+
+[6.sql](./6.sql)
+
+[7.sql](./7.sql)
+
+
+## Usage
+
+Usage for PostgreSQL with psql util:
+
+```shell
+psql -h $PG_HOST -d $PG_DATABASE -c '\i ${number}.sql'
+```
